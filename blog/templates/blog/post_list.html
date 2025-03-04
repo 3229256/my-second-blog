@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina di esempio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Benvenuto nella mia pagina!</h1>
+    <p>Questa è una semplice pagina HTML con un pulsante interattivo.</p>
+    <button onclick="saluta()">Cliccami!</button>
+
+    <script>
+        function saluta() {
+            alert("Ciao! Grazie per aver cliccato. 😊");
+        }
+    </script>
+
+</body>
+</html>
